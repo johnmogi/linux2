@@ -1,4 +1,4 @@
-~ \\תיקית הבית של היוזר 
+~ \\תיקית הבית של היוזר
 cd /var/www
 cd ~
 cd - \\ מחזיר אותי למקום הקודם בו הייתי
@@ -19,12 +19,12 @@ cp העתקה
 cp file new_file
 cp file /var/www/
 
-rm -r  <folder> \\ רקורסיב למחוק את כל הקבצים
+rm -r <folder> \\ רקורסיב למחוק את כל הקבצים
 לא להשתמש ב F \\ FORCE
 לא להשתמש ב \
 rm -rf \ \\מחיקת כל הקבצים מהמחשב
 
-whoami \\ משתמש להבנת המשתמש הנוכחי נוח במיוחד במצב SSH 
+whoami \\ משתמש להבנת המשתמש הנוכחי נוח במיוחד במצב SSH
 history - \\ לחפש סיסמאות ביוזרים שלא מחקו היסטוריה
 clear - ctrl l
 passwd - שינוי סיסמה לא להשתמש ב
@@ -35,6 +35,7 @@ wc - ספירת מילים
 
 cat /etc/passwd
 cut -d ":" -f 1,2,3 /etc/passwd
+d: <delimiter>
 
 crunch 1 5 1234567890 -o pass.lst \\ מכין קובץ לפריצה
 
@@ -44,13 +45,12 @@ cat 12345123345 > file.txt
 sort file.txt | uniq
 
 ## tail / head shows 10 lines by default
+
 head -n 2 file.txt
 tail -f file.txt \\ משאיר את הקובץ פתוח ורואים תוספות של שורות בזמן אמת
-
 
 touch "john mogi"
 rm john/ mogi
 
 cut -d ":" -f 1 group
 cut -d : -f 1 group
-

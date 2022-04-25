@@ -1,4 +1,7 @@
+restart - lesson 20
+
 # linux
+
 another great place to practice:
 https://www.shortcutfoo.com/
 
@@ -8,5 +11,7 @@ task 3 - python cert
 
 later gocode fullstack.
 solid
+
 # linux2
+
 # linux2
