@@ -1,0 +1,7 @@
+[user]
+    name = johnmogi
+    email = anguru@gmail.com
+git config --global user.name "johnmogi"
+git config --global user.email "anguru@gmail.com"
+
+git config credential.helper store
